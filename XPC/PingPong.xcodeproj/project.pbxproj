@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF013EEC16B29962004FDBCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF013EEB16B29962004FDBCF /* Foundation.framework */; };
+		BF013EF216B29962004FDBCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF013EF016B29962004FDBCF /* InfoPlist.strings */; };
+		BF013EF516B29962004FDBCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF013EF416B29962004FDBCF /* main.m */; };
+		BF013EFA16B299AD004FDBCF /* com.octiplex.PingPongXPC.xpc in Copy XPCServices */ = {isa = PBXBuildFile; fileRef = BF013EEA16B29962004FDBCF /* com.octiplex.PingPongXPC.xpc */; };
+		BF013F0416B29DF4004FDBCF /* PPXResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = BF013F0316B29DF4004FDBCF /* PPXResponder.m */; };
+		BFB9C97916A87EC6007FA6C3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB9C97816A87EC6007FA6C3 /* Cocoa.framework */; };
+		BFB9C98316A87EC6007FA6C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFB9C98116A87EC6007FA6C3 /* InfoPlist.strings */; };
+		BFB9C98516A87EC6007FA6C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB9C98416A87EC6007FA6C3 /* main.m */; };
+		BFB9C98916A87EC7007FA6C3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BFB9C98716A87EC6007FA6C3 /* Credits.rtf */; };
+		BFB9C98C16A87EC7007FA6C3 /* PPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB9C98B16A87EC7007FA6C3 /* PPAppDelegate.m */; };
+		BFB9C98F16A87EC7007FA6C3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB9C98D16A87EC7007FA6C3 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF013EFB16B299B9004FDBCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB9C96B16A87EC6007FA6C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF013EE916B29962004FDBCF;
+			remoteInfo = PingPongXPC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF013EF916B2997B004FDBCF /* Copy XPCServices */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/XPCServices;
+			dstSubfolderSpec = 1;
+			files = (
+				BF013EFA16B299AD004FDBCF /* com.octiplex.PingPongXPC.xpc in Copy XPCServices */,
+			);
+			name = "Copy XPCServices";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF013EEA16B29962004FDBCF /* com.octiplex.PingPongXPC.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.octiplex.PingPongXPC.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF013EEB16B29962004FDBCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF013EEF16B29962004FDBCF /* PingPongXPC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PingPongXPC-Info.plist"; sourceTree = "<group>"; };
+		BF013EF116B29962004FDBCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF013EF316B29962004FDBCF /* PingPongXPC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PingPongXPC-Prefix.pch"; sourceTree = "<group>"; };
+		BF013EF416B29962004FDBCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF013EFE16B29A66004FDBCF /* PingPong.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PingPong.entitlements; sourceTree = "<group>"; };
+		BF013EFF16B29D9C004FDBCF /* PPResponderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPResponderProtocol.h; sourceTree = "<group>"; };
+		BF013F0216B29DF4004FDBCF /* PPXResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPXResponder.h; sourceTree = "<group>"; };
+		BF013F0316B29DF4004FDBCF /* PPXResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPXResponder.m; sourceTree = "<group>"; };
+		BFB9C97416A87EC6007FA6C3 /* PingPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB9C97816A87EC6007FA6C3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BFB9C97B16A87EC6007FA6C3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BFB9C97C16A87EC6007FA6C3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BFB9C97D16A87EC6007FA6C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFB9C98016A87EC6007FA6C3 /* PingPong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PingPong-Info.plist"; sourceTree = "<group>"; };
+		BFB9C98216A87EC6007FA6C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFB9C98416A87EC6007FA6C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFB9C98616A87EC6007FA6C3 /* PingPong-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PingPong-Prefix.pch"; sourceTree = "<group>"; };
+		BFB9C98816A87EC6007FA6C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BFB9C98A16A87EC7007FA6C3 /* PPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPAppDelegate.h; sourceTree = "<group>"; };
+		BFB9C98B16A87EC7007FA6C3 /* PPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPAppDelegate.m; sourceTree = "<group>"; };
+		BFB9C98E16A87EC7007FA6C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF013EE716B29962004FDBCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF013EEC16B29962004FDBCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB9C97116A87EC6007FA6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB9C97916A87EC6007FA6C3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF013EED16B29962004FDBCF /* PingPongXPC */ = {
+			isa = PBXGroup;
+			children = (
+				BF013EF416B29962004FDBCF /* main.m */,
+				BF013F0216B29DF4004FDBCF /* PPXResponder.h */,
+				BF013F0316B29DF4004FDBCF /* PPXResponder.m */,
+				BF013EEE16B29962004FDBCF /* Supporting Files */,
+			);
+			path = PingPongXPC;
+			sourceTree = "<group>";
+		};
+		BF013EEE16B29962004FDBCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF013EEF16B29962004FDBCF /* PingPongXPC-Info.plist */,
+				BF013EF016B29962004FDBCF /* InfoPlist.strings */,
+				BF013EF316B29962004FDBCF /* PingPongXPC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF013EFD16B29A32004FDBCF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BF013EFF16B29D9C004FDBCF /* PPResponderProtocol.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BFB9C96916A87EC6007FA6C3 = {
+			isa = PBXGroup;
+			children = (
+				BF013EFD16B29A32004FDBCF /* Common */,
+				BFB9C97E16A87EC6007FA6C3 /* PingPong */,
+				BF013EED16B29962004FDBCF /* PingPongXPC */,
+				BFB9C97716A87EC6007FA6C3 /* Frameworks */,
+				BFB9C97516A87EC6007FA6C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFB9C97516A87EC6007FA6C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFB9C97416A87EC6007FA6C3 /* PingPong.app */,
+				BF013EEA16B29962004FDBCF /* com.octiplex.PingPongXPC.xpc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFB9C97716A87EC6007FA6C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFB9C97816A87EC6007FA6C3 /* Cocoa.framework */,
+				BF013EEB16B29962004FDBCF /* Foundation.framework */,
+				BFB9C97A16A87EC6007FA6C3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFB9C97A16A87EC6007FA6C3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFB9C97B16A87EC6007FA6C3 /* AppKit.framework */,
+				BFB9C97C16A87EC6007FA6C3 /* CoreData.framework */,
+				BFB9C97D16A87EC6007FA6C3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BFB9C97E16A87EC6007FA6C3 /* PingPong */ = {
+			isa = PBXGroup;
+			children = (
+				BF013EFE16B29A66004FDBCF /* PingPong.entitlements */,
+				BFB9C98A16A87EC7007FA6C3 /* PPAppDelegate.h */,
+				BFB9C98B16A87EC7007FA6C3 /* PPAppDelegate.m */,
+				BFB9C98D16A87EC7007FA6C3 /* MainMenu.xib */,
+				BFB9C97F16A87EC6007FA6C3 /* Supporting Files */,
+			);
+			path = PingPong;
+			sourceTree = "<group>";
+		};
+		BFB9C97F16A87EC6007FA6C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFB9C98016A87EC6007FA6C3 /* PingPong-Info.plist */,
+				BFB9C98116A87EC6007FA6C3 /* InfoPlist.strings */,
+				BFB9C98416A87EC6007FA6C3 /* main.m */,
+				BFB9C98616A87EC6007FA6C3 /* PingPong-Prefix.pch */,
+				BFB9C98716A87EC6007FA6C3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF013EE916B29962004FDBCF /* PingPongXPC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF013EF616B29962004FDBCF /* Build configuration list for PBXNativeTarget "PingPongXPC" */;
+			buildPhases = (
+				BF013EE616B29962004FDBCF /* Sources */,
+				BF013EE716B29962004FDBCF /* Frameworks */,
+				BF013EE816B29962004FDBCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PingPongXPC;
+			productName = PingPongXPC;
+			productReference = BF013EEA16B29962004FDBCF /* com.octiplex.PingPongXPC.xpc */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BFB9C97316A87EC6007FA6C3 /* PingPong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB9C99216A87EC7007FA6C3 /* Build configuration list for PBXNativeTarget "PingPong" */;
+			buildPhases = (
+				BFB9C97016A87EC6007FA6C3 /* Sources */,
+				BFB9C97116A87EC6007FA6C3 /* Frameworks */,
+				BFB9C97216A87EC6007FA6C3 /* Resources */,
+				BF013EF916B2997B004FDBCF /* Copy XPCServices */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF013EFC16B299B9004FDBCF /* PBXTargetDependency */,
+			);
+			name = PingPong;
+			productName = PingPong;
+			productReference = BFB9C97416A87EC6007FA6C3 /* PingPong.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFB9C96B16A87EC6007FA6C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Octiplex;
+			};
+			buildConfigurationList = BFB9C96E16A87EC6007FA6C3 /* Build configuration list for PBXProject "PingPong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFB9C96916A87EC6007FA6C3;
+			productRefGroup = BFB9C97516A87EC6007FA6C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFB9C97316A87EC6007FA6C3 /* PingPong */,
+				BF013EE916B29962004FDBCF /* PingPongXPC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF013EE816B29962004FDBCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF013EF216B29962004FDBCF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB9C97216A87EC6007FA6C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB9C98316A87EC6007FA6C3 /* InfoPlist.strings in Resources */,
+				BFB9C98916A87EC7007FA6C3 /* Credits.rtf in Resources */,
+				BFB9C98F16A87EC7007FA6C3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF013EE616B29962004FDBCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF013EF516B29962004FDBCF /* main.m in Sources */,
+				BF013F0416B29DF4004FDBCF /* PPXResponder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB9C97016A87EC6007FA6C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB9C98516A87EC6007FA6C3 /* main.m in Sources */,
+				BFB9C98C16A87EC7007FA6C3 /* PPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF013EFC16B299B9004FDBCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF013EE916B29962004FDBCF /* PingPongXPC */;
+			targetProxy = BF013EFB16B299B9004FDBCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF013EF016B29962004FDBCF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF013EF116B29962004FDBCF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFB9C98116A87EC6007FA6C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB9C98216A87EC6007FA6C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFB9C98716A87EC6007FA6C3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB9C98816A87EC6007FA6C3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BFB9C98D16A87EC7007FA6C3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB9C98E16A87EC7007FA6C3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF013EF716B29962004FDBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PingPongXPC/PingPongXPC-Prefix.pch";
+				INFOPLIST_FILE = "PingPongXPC/PingPongXPC-Info.plist";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = "com.octiplex.$(TARGET_NAME:rfc1034identifier)";
+				WRAPPER_EXTENSION = xpc;
+			};
+			name = Debug;
+		};
+		BF013EF816B29962004FDBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PingPongXPC/PingPongXPC-Prefix.pch";
+				INFOPLIST_FILE = "PingPongXPC/PingPongXPC-Info.plist";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = "com.octiplex.$(TARGET_NAME:rfc1034identifier)";
+				WRAPPER_EXTENSION = xpc;
+			};
+			name = Release;
+		};
+		BFB9C99016A87EC7007FA6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BFB9C99116A87EC7007FA6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BFB9C99316A87EC7007FA6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PingPong/PingPong.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PingPong/PingPong-Prefix.pch";
+				INFOPLIST_FILE = "PingPong/PingPong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFB9C99416A87EC7007FA6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PingPong/PingPong.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PingPong/PingPong-Prefix.pch";
+				INFOPLIST_FILE = "PingPong/PingPong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF013EF616B29962004FDBCF /* Build configuration list for PBXNativeTarget "PingPongXPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF013EF716B29962004FDBCF /* Debug */,
+				BF013EF816B29962004FDBCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFB9C96E16A87EC6007FA6C3 /* Build configuration list for PBXProject "PingPong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB9C99016A87EC7007FA6C3 /* Debug */,
+				BFB9C99116A87EC7007FA6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB9C99216A87EC7007FA6C3 /* Build configuration list for PBXNativeTarget "PingPong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB9C99316A87EC7007FA6C3 /* Debug */,
+				BFB9C99416A87EC7007FA6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFB9C96B16A87EC6007FA6C3 /* Project object */;
+}
